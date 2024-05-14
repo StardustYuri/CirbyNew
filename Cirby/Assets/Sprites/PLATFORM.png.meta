@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: eb07dcffd5ff1ff4e9faabc3ed3c9328
+guid: 1a81cae37a722bb4197df2158312611e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1474387185781649215
-    second: New_Piskel-ezgif.com-webp-to-png-converter_0
-  - first:
-      213: 1740251562233390789
-    second: New_Piskel-ezgif.com-webp-to-png-converter_1
+      213: -4435364719106762690
+    second: PLATFORM_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -101,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New_Piskel-ezgif.com-webp-to-png-converter_0
+      name: PLATFORM_0
       rect:
         serializedVersion: 2
-        x: 104
-        y: 146
-        width: 372
-        height: 226
+        x: 207
+        y: 285
+        width: 625
+        height: 158
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,29 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3f27e57553167410800000000000000
-      internalID: 1474387185781649215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: New_Piskel-ezgif.com-webp-to-png-converter_1
-      rect:
-        serializedVersion: 2
-        x: 342
-        y: 13
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c66dba539d962810800000000000000
-      internalID: 1740251562233390789
+      spriteID: e38575c994b6272c0800000000000000
+      internalID: -4435364719106762690
       vertices: []
       indices: 
       edges: []
@@ -152,9 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      New_Piskel-ezgif.com-webp-to-png-converter_0: 1474387185781649215
-      New_Piskel-ezgif.com-webp-to-png-converter_1: 1740251562233390789
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
