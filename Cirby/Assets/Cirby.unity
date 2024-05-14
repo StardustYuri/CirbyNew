@@ -883,7 +883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jumpAmount: 7
+  jumpAmount: 20
   groundChecker: {fileID: 388521038}
   groundMask:
     serializedVersion: 2
