@@ -31,9 +31,11 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if(touchesGround && Input.GetKeyDown(KeyCode.Space))
+        if (touchesGround && Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("Jump");
             rb.velocity = Vector2.up * jumpAmount;
         }
+        
     }
 }
