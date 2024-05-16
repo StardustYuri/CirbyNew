@@ -34,6 +34,7 @@ public class Player : MonoBehaviour
         if(touchesGround && Input.GetKeyDown(KeyCode.Space))
         {
             rb.velocity = Vector2.up * jumpAmount;
+            Debug.Log("Jump");
         }
     }
 }
