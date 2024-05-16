@@ -24,7 +24,7 @@ public class Platforms : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (transform.position == waypoints[target].positon)
+        if (transform.position == waypoints[target].position)
         {
             if (target == waypoints.Count - 1)
             {

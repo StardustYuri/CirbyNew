@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public float speed;
     public float jumpAmount;
     float inputMovement;
+    public Animator anim;
 
     Rigidbody2D rb;
 
@@ -31,6 +32,13 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            anim.SetBool("running", true);
+        } else if (Input.GetKeyUp(KeyCode.D))
+        {
+            anim.SetBool("running", false);
+        }
         if (touchesGround && Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("Jump");

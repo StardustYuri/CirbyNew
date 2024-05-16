@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: c0b312bb64b439d43a058b4992b844c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1221501977271343846
+    second: cirby run_0
+  - first:
+      213: 2423923178970861116
+    second: cirby run_1
+  - first:
+      213: 9161949481926258354
+    second: cirby run_2
+  - first:
+      213: 7898375793836430060
+    second: cirby run_3
+  - first:
+      213: -7167635925413961674
+    second: cirby run_4
+  - first:
+      213: 6280706729485383654
+    second: cirby run_5
+  - first:
+      213: -3032843618070888832
+    second: cirby run_6
+  - first:
+      213: 3054367528419222369
+    second: cirby run_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cirby run_0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2164
+        width: 1366
+        height: 825
+      alignment: 9
+      pivot: {x: 0.59029686, y: 0.5974278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea12b79395a3f010800000000000000
+      internalID: 1221501977271343846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run_1
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 2224
+        width: 1276
+        height: 802
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ec46de94183a120800000000000000
+      internalID: 2423923178970861116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run_2
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1749
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bee9400388c52f70800000000000000
+      internalID: 9161949481926258354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run_3
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 1749
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce21a26efeaac9d60800000000000000
+      internalID: 7898375793836430060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run_4
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 549
+        width: 1277
+        height: 777
+      alignment: 9
+      pivot: {x: 0.37983602, y: 0.49059564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6306f520a11778c90800000000000000
+      internalID: -7167635925413961674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run_5
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 499
+        width: 1276
+        height: 827
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7b16d6e7d892750800000000000000
+      internalID: 6280706729485383654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run_6
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 49
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ef29d4ccc29e5d0800000000000000
+      internalID: -3032843618070888832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run_7
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 49
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1636ae8951b436a20800000000000000
+      internalID: 3054367528419222369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run 1_0
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 2091
+        width: 1361
+        height: 943
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2c61037a5583d48a6e5f50a623b62e
+      internalID: 1286923087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run 1_1
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 528
+        width: 1471
+        height: 877
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582dba4831e00184badfb8d0f59f5783
+      internalID: 1569435986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run 1_2
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2186
+        width: 88
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12294431a219512488af571d8f930a72
+      internalID: 1795888463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run 1_3
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 557
+        width: 1352
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600baaac4f0ef014ba6b297097d4fc30
+      internalID: 1591954172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run 1_4
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 506
+        width: 1512
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326b2e9bdb6b46b478d2970860956aa3
+      internalID: 797924151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run 1_5
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 2062
+        width: 1476
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a51faff3be5e74697aea8a57241a86
+      internalID: 142368967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run 1_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2201
+        width: 373
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8601e79442e44a4c9e9e2bc1f9a8559
+      internalID: -1806973590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cirby run 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2121
+        width: 1717
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1ad1fac57b34842b566a7fbfca1b9c
+      internalID: 987057848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b998cb24aa6d1c143915554982307b37
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cirby run 1_0: 1286923087
+      cirby run 1_1: 1569435986
+      cirby run 1_2: 1795888463
+      cirby run 1_3: 1591954172
+      cirby run 1_4: 797924151
+      cirby run 1_5: 142368967
+      cirby run 1_6: -1806973590
+      cirby run 1_7: 987057848
+      cirby run_0: 1221501977271343846
+      cirby run_1: 2423923178970861116
+      cirby run_2: 9161949481926258354
+      cirby run_3: 7898375793836430060
+      cirby run_4: -7167635925413961674
+      cirby run_5: 6280706729485383654
+      cirby run_6: -3032843618070888832
+      cirby run_7: 3054367528419222369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
