@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-<<<<<<<< Updated upstream:Cirby/Assets/Sprites/BACKDROP-ezgif.com-webp-to-png-converter.png.meta
-guid: 88bb84083b0ad1d4d88a798d05b357d8
+guid: ebdb83f8f807ed24588e86fe4ec49200
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6323134905775364936
-    second: BACKDROP-ezgif.com-webp-to-png-converter_0
-========
-guid: ab5d62b54dd575743825bf6571211444
-TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7925037958457330846
-    second: New_Piskel-1.png1-ezgif.com-webp-to-png-converter_0
->>>>>>>> Stashed changes:Cirby/Assets/Sprites/MetaKnight.png.meta
+      213: 4653087748404585825
+    second: marx-ezgif.com-webp-to-png-converter_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -107,23 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<<< Updated upstream:Cirby/Assets/Sprites/BACKDROP-ezgif.com-webp-to-png-converter.png.meta
-      name: BACKDROP-ezgif.com-webp-to-png-converter_0
+      name: marx-ezgif.com-webp-to-png-converter_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 853
-        height: 853
-========
-      name: New_Piskel-1.png1-ezgif.com-webp-to-png-converter_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 212
-        width: 828
-        height: 549
->>>>>>>> Stashed changes:Cirby/Assets/Sprites/MetaKnight.png.meta
+        x: 105
+        y: 92
+        width: 616
+        height: 709
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,13 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-<<<<<<<< Updated upstream:Cirby/Assets/Sprites/BACKDROP-ezgif.com-webp-to-png-converter.png.meta
-      spriteID: 84b1d9502b940c750800000000000000
-      internalID: 6323134905775364936
-========
-      spriteID: e9c0659d8046bfd60800000000000000
-      internalID: 7925037958457330846
->>>>>>>> Stashed changes:Cirby/Assets/Sprites/MetaKnight.png.meta
+      spriteID: 165a06077a6139040800000000000000
+      internalID: 4653087748404585825
       vertices: []
       indices: 
       edges: []
@@ -153,11 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<<< Updated upstream:Cirby/Assets/Sprites/BACKDROP-ezgif.com-webp-to-png-converter.png.meta
-      PLATFORM_0: -4435364719106762690
-========
-      New_Piskel-1.png1-ezgif.com-webp-to-png-converter_0: 7925037958457330846
->>>>>>>> Stashed changes:Cirby/Assets/Sprites/MetaKnight.png.meta
+      marx-ezgif.com-webp-to-png-converter_0: 4653087748404585825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

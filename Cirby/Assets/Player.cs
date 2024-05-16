@@ -15,11 +15,18 @@ public class Player : MonoBehaviour
     public LayerMask groundMask;
     public float radius;
 
+<<<<<<< Updated upstream
     
     public float jumpInterval = 0.25f;
     public float jumpforce; //for followers
     public GameObject[] objectsToJump;
     
+=======
+    public float jumpForce = 5f;
+    public float jumpInterval = 0.25f;
+    public GameObject[] objectsToJump;
+
+>>>>>>> Stashed changes
     private int currentIndex = 0;
     private bool jumping = false;
 
@@ -27,10 +34,17 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
+<<<<<<< Updated upstream
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
+=======
+        // Hide the cursor and lock it to the center of the screen
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+>>>>>>> Stashed changes
     }
+
 
     private void FixedUpdate()
     {
@@ -65,6 +79,7 @@ public class Player : MonoBehaviour
     {
         while (jumping && currentIndex < objectsToJump.Length)
         {
+<<<<<<< Updated upstream
             GameObject currentObject = objectsToJump[currentIndex];
             Transform currentGroundChecker = currentObject.GetComponentInChildren<Transform>(); // Assuming groundChecker is a child object
 
@@ -77,6 +92,16 @@ public class Player : MonoBehaviour
                 Jump(currentObject); // Call the Jump function with the current object
             }
 
+=======
+            // Skip jumping if currentIndex is 0
+            if (currentIndex == 0)
+            {
+                currentIndex++;
+                continue; // Skip the rest of the loop and start from the beginning
+            }
+
+            Jump(objectsToJump[currentIndex]);
+>>>>>>> Stashed changes
             currentIndex++;
             yield return new WaitForSeconds(jumpInterval);
         }
@@ -91,8 +116,12 @@ public class Player : MonoBehaviour
         Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
+<<<<<<< Updated upstream
             rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
             Debug.Log("Jump Object");
+=======
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+>>>>>>> Stashed changes
         }
         else
         {
