@@ -61,25 +61,30 @@ public class Player : MonoBehaviour
             }
         }
     }
-
     IEnumerator StartJumpSequence()
     {
         while (jumping && currentIndex < objectsToJump.Length)
         {
-            if (currentIndex == 0)
+            GameObject currentObject = objectsToJump[currentIndex];
+            Transform currentGroundChecker = currentObject.GetComponentInChildren<Transform>(); // Assuming groundChecker is a child object
+
+            // Perform ground check using the current object's groundChecker
+            bool touchesGround = Physics2D.OverlapCircle(currentGroundChecker.position, radius, groundMask);
+
+            // Check if the current object touches the ground
+            if (touchesGround)
             {
-                currentIndex++;
-                continue; 
+                Jump(currentObject); // Call the Jump function with the current object
             }
-            Jump(objectsToJump[currentIndex]);
+
             currentIndex++;
             yield return new WaitForSeconds(jumpInterval);
-            
         }
 
         jumping = false;
         currentIndex = 0;
     }
+
 
     void Jump(GameObject obj)
     {

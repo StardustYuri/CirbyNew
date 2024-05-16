@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class FollowerCode : MonoBehaviour
 {
-    // Start is called before the first frame update
+    bool touchesGround;
+    public Transform groundChecker;
+    public LayerMask groundMask;
+    public float radius;
+
     void Start()
     {
         
@@ -13,6 +17,15 @@ public class FollowerCode : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (touchesGround && Input.GetKeyDown(KeyCode.Space))
+        {
+            
+        }
+    }
+    private void FixedUpdate()
+    {
+        touchesGround = Physics2D.OverlapCircle(groundChecker.position, radius, groundMask);
+
+       
     }
 }
