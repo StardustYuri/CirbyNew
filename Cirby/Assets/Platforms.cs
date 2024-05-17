@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using System.Security.Cryptography;
 using System.Threading;
 using UnityEngine;
-
+/*
 public class Platforms : MonoBehaviour
 {
     public List<Transform> waypoints;
@@ -37,5 +37,5 @@ public class Platforms : MonoBehaviour
             }
         }
     }
-}
+}*/
 //kristen was here

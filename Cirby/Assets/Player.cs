@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public float speed;
     public float jumpAmount; //for player
     float inputMovement;
-    public Animator anim;
+    //public Animator anim;
 
     Rigidbody2D rb;
 
@@ -50,10 +50,10 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.D))
         {
-            anim.SetBool("running", true);
+            //anim.SetBool("running", true);
         } else if (Input.GetKeyUp(KeyCode.D))
         {
-            anim.SetBool("running", false);
+            //anim.SetBool("running", false);
         }
         if (touchesGround && Input.GetKeyDown(KeyCode.Space))
         {
