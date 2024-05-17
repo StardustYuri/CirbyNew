@@ -18,15 +18,17 @@ public class BulletCollision : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "Mirby")
-        {
-            Destroy(gameObject);
+        
 
-        }
-
-        if (collision.gameObject.tag != "GROUND" && collision.gameObject.tag != "Mirby")
+        if (collision.gameObject.tag != "Ground" && collision.gameObject.tag != "Player")
         {
             Destroy(collision.gameObject);
+            Debug.Log("Object Deleted (ground code)");
+        }
+        if (collision.gameObject.tag != "Player")
+        {
+            Destroy(gameObject);
+            Debug.Log("Object Deleted");
         }
     }
 }
