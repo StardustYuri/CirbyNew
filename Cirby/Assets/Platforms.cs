@@ -24,7 +24,11 @@ public class Platforms : MonoBehaviour
     }
     private void FixedUpdate()
     {
+
         if (transform.position == waypoints[target].position)
+
+        if (transform.position == waypoints[target].position)
+ 
         {
             if (target == waypoints.Count - 1)
             {
@@ -38,4 +42,3 @@ public class Platforms : MonoBehaviour
         }
     }
 }
-//kristen was here
