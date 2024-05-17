@@ -296,7 +296,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cirby run_0: 1221501977271343846
+      cirby run_1: 2423923178970861116
+      cirby run_2: 9161949481926258354
+      cirby run_3: 7898375793836430060
+      cirby run_4: -7167635925413961674
+      cirby run_5: 6280706729485383654
+      cirby run_6: -3032843618070888832
+      cirby run_7: 3054367528419222369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CIRBY idle_0: -1668324870041227483
+      CIRBY idle_1: -8569102429937727301
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
