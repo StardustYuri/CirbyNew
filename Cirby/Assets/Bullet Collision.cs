@@ -18,13 +18,13 @@ public class BulletCollision : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "Player")
+        if (collision.gameObject.tag != "Mirby")
         {
             Destroy(gameObject);
 
         }
 
-        if (collision.gameObject.tag != "GROUND" && collision.gameObject.tag != "Player")
+        if (collision.gameObject.tag != "GROUND" && collision.gameObject.tag != "Mirby")
         {
             Destroy(collision.gameObject);
         }
