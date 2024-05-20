@@ -20,15 +20,15 @@ public class BulletCollision : MonoBehaviour
     {
         
 
-        if (collision.gameObject.tag != "Ground" && collision.gameObject.tag != "Player")
+        if (collision.gameObject.tag != "Ground") //&& collision.gameObject.tag != "Player")
         {
             Destroy(collision.gameObject);
             Debug.Log("Object Deleted (ground code)");
         }
-        if (collision.gameObject.tag != "Player")
+       /* if (collision.gameObject.tag != "Player")
         {
             Destroy(gameObject);
             Debug.Log("Object Deleted");
         }
-    }
+   */ }
 }
