@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     public float speed;
     public Transform character;
     public float lifetime = 3f;
-    public float invincibilityDuration = 0.5f; // Time in seconds before the bullet can collide with objects
+    public float invincibilityDuration = 0.1f; // Time in seconds before the bullet can collide with objects
 
     // Start is called before the first frame update
     void Start()
