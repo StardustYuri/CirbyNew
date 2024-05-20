@@ -25,10 +25,5 @@ public class BulletCollision : MonoBehaviour
             Destroy(collision.gameObject);
             Debug.Log("Object Deleted (ground code)");
         }
-       /* if (collision.gameObject.tag != "Player")
-        {
-            Destroy(gameObject);
-            Debug.Log("Object Deleted");
         }
-   */ }
 }
