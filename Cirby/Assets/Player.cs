@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
 
         // Hide the cursor and lock it to the center of the screen
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.visible = true;
     }
 
 
