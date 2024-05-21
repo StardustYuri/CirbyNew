@@ -912,7 +912,7 @@ GameObject:
   - component: {fileID: 276043105}
   m_Layer: 6
   m_Name: Finish
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1574,6 +1574,7 @@ GameObject:
   - component: {fileID: 445445716}
   - component: {fileID: 445445717}
   - component: {fileID: 445445718}
+  - component: {fileID: 445445719}
   m_Layer: 0
   m_Name: Marx
   m_TagString: Untagged
@@ -1590,12 +1591,13 @@ Transform:
   m_GameObject: {fileID: 445445715}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.48, y: 3.05, z: 0}
+  m_LocalPosition: {x: -0.16, y: 3.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 266181711}
   - {fileID: 1155251944}
+  - {fileID: 920085152}
   m_Father: {fileID: 1794615743}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &445445717
@@ -1671,6 +1673,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &445445719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445445715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9dc474005f0f1747b6abe93b0907965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 2035636902}
+  shootPoint: {fileID: 920085152}
+  shootInterval: 1.5
+  shootForce: 20
+  numProjectiles: 5
+  spreadAngle: 100
+  invincibilityDuration: 0.1
+  maxHealth: 6
 --- !u!1 &520772099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,7 +1977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1bd863314a51744abdc77d14fb93dba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateAmount: {x: 0, y: 0, z: 20}
+  RotateAmount: {x: 20, y: 20, z: 20}
 --- !u!65 &668914296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2540,6 +2562,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &920085151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 920085152}
+  m_Layer: 0
+  m_Name: gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &920085152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920085151}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.06, y: -1.01, z: 0.86571836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 445445716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1140106450
 GameObject:
   m_ObjectHideFlags: 0
@@ -3082,7 +3135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 297699057}
-  speed: 12
+  speed: 25
   character: {fileID: 1401907082}
   lifetime: 3
   invincibilityDuration: 0.5
